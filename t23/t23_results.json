@@ -1,0 +1,1465 @@
+{
+ "seed": 42323,
+ "profiles": [
+  "atlas",
+  "vela",
+  "onyx",
+  "kest"
+ ],
+ "threshold_policy": {
+  "T_MEAN_MULT": 2.5,
+  "T_STD_MULT": 3.0,
+  "REL_SLACK": 0.2,
+  "ABS_FLOOR": 0.03,
+  "PAUSE_K": 8.0,
+  "note": "model+threshold from calibration split only; fixed multipliers declared pre-test"
+ },
+ "swap_matrix": {
+  "atlas": {
+   "atlas": {
+    "accepted": 3,
+    "total": 3,
+    "mean_distance": 0.4574
+   },
+   "vela": {
+    "accepted": 0,
+    "total": 3,
+    "mean_distance": 1.2345
+   },
+   "onyx": {
+    "accepted": 0,
+    "total": 3,
+    "mean_distance": 2.5876
+   },
+   "kest": {
+    "accepted": 0,
+    "total": 3,
+    "mean_distance": 3.774
+   }
+  },
+  "vela": {
+   "atlas": {
+    "accepted": 0,
+    "total": 3,
+    "mean_distance": 1.0456
+   },
+   "vela": {
+    "accepted": 3,
+    "total": 3,
+    "mean_distance": 0.489
+   },
+   "onyx": {
+    "accepted": 0,
+    "total": 3,
+    "mean_distance": 2.7928
+   },
+   "kest": {
+    "accepted": 0,
+    "total": 3,
+    "mean_distance": 3.9699
+   }
+  },
+  "onyx": {
+   "atlas": {
+    "accepted": 0,
+    "total": 3,
+    "mean_distance": 1.7106
+   },
+   "vela": {
+    "accepted": 0,
+    "total": 3,
+    "mean_distance": 2.2511
+   },
+   "onyx": {
+    "accepted": 3,
+    "total": 3,
+    "mean_distance": 0.3792
+   },
+   "kest": {
+    "accepted": 0,
+    "total": 3,
+    "mean_distance": 1.6998
+   }
+  },
+  "kest": {
+   "atlas": {
+    "accepted": 0,
+    "total": 3,
+    "mean_distance": 2.2879
+   },
+   "vela": {
+    "accepted": 0,
+    "total": 3,
+    "mean_distance": 2.7908
+   },
+   "onyx": {
+    "accepted": 0,
+    "total": 3,
+    "mean_distance": 1.5556
+   },
+   "kest": {
+    "accepted": 3,
+    "total": 3,
+    "mean_distance": 0.4108
+   }
+  }
+ },
+ "FAR": {
+  "accepted": 0,
+  "total": 144,
+  "rate": 0.0
+ },
+ "FRR": {
+  "rejected": 0,
+  "total": 24,
+  "rate": 0.0
+ },
+ "far_detail": [
+  {
+   "profile": "atlas",
+   "distance": 3.155,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "stranger"
+  },
+  {
+   "profile": "atlas",
+   "distance": 3.596,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "stranger"
+  },
+  {
+   "profile": "atlas",
+   "distance": 2.8363,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "stranger"
+  },
+  {
+   "profile": "atlas",
+   "distance": 2.4495,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "atlas",
+   "distance": 2.7759,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "atlas",
+   "distance": 2.5005,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "atlas",
+   "distance": 1.3508,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "atlas",
+   "distance": 2.4634,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "atlas",
+   "distance": 1.2587,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "vela",
+   "distance": 2.1848,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "stranger"
+  },
+  {
+   "profile": "vela",
+   "distance": 4.4744,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "stranger"
+  },
+  {
+   "profile": "vela",
+   "distance": 2.126,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "stranger"
+  },
+  {
+   "profile": "vela",
+   "distance": 1.574,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "vela",
+   "distance": 6.4285,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "vela",
+   "distance": 1.4027,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "vela",
+   "distance": 1.6674,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "vela",
+   "distance": 3.7557,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "vela",
+   "distance": 1.9403,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "onyx",
+   "distance": 3.0703,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "stranger"
+  },
+  {
+   "profile": "onyx",
+   "distance": 1.9635,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "stranger"
+  },
+  {
+   "profile": "onyx",
+   "distance": 3.3898,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "stranger"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.41,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "onyx",
+   "distance": 5.8551,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.3239,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "onyx",
+   "distance": 1.9967,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "onyx",
+   "distance": 1.822,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.0498,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "kest",
+   "distance": 4.3256,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "stranger"
+  },
+  {
+   "profile": "kest",
+   "distance": 5.211,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "stranger"
+  },
+  {
+   "profile": "kest",
+   "distance": 4.3929,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "stranger"
+  },
+  {
+   "profile": "kest",
+   "distance": 3.6234,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "kest",
+   "distance": 1.6266,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "kest",
+   "distance": 3.614,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "kest",
+   "distance": 2.3555,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "kest",
+   "distance": 1.7956,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "kest",
+   "distance": 3.0845,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "atlas",
+   "distance": 2.8649,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "stranger"
+  },
+  {
+   "profile": "atlas",
+   "distance": 3.8714,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "stranger"
+  },
+  {
+   "profile": "atlas",
+   "distance": 2.6652,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "stranger"
+  },
+  {
+   "profile": "atlas",
+   "distance": 2.7597,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "atlas",
+   "distance": 6.6976,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "atlas",
+   "distance": 2.4396,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "atlas",
+   "distance": 1.4948,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "atlas",
+   "distance": 2.7816,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "atlas",
+   "distance": 2.1052,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "atlas",
+   "distance": 2.976,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "stranger"
+  },
+  {
+   "profile": "atlas",
+   "distance": 3.1243,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "stranger"
+  },
+  {
+   "profile": "atlas",
+   "distance": 3.25,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "stranger"
+  },
+  {
+   "profile": "atlas",
+   "distance": 3.5697,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "atlas",
+   "distance": 7.6133,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "atlas",
+   "distance": 3.3657,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "atlas",
+   "distance": 1.3488,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "atlas",
+   "distance": 3.5126,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "atlas",
+   "distance": 1.6154,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "atlas",
+   "distance": 2.9102,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "stranger"
+  },
+  {
+   "profile": "atlas",
+   "distance": 7.2545,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "stranger"
+  },
+  {
+   "profile": "atlas",
+   "distance": 3.0089,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "stranger"
+  },
+  {
+   "profile": "atlas",
+   "distance": 5.0003,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "atlas",
+   "distance": 4.6421,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "atlas",
+   "distance": 4.5866,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "atlas",
+   "distance": 1.5425,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "atlas",
+   "distance": 2.832,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "atlas",
+   "distance": 1.7523,
+   "threshold": 1.1407,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "vela",
+   "distance": 2.4782,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "stranger"
+  },
+  {
+   "profile": "vela",
+   "distance": 4.1079,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "stranger"
+  },
+  {
+   "profile": "vela",
+   "distance": 2.2197,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "stranger"
+  },
+  {
+   "profile": "vela",
+   "distance": 1.8192,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "vela",
+   "distance": 2.8741,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "vela",
+   "distance": 1.7822,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "vela",
+   "distance": 1.7559,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "vela",
+   "distance": 3.3822,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "vela",
+   "distance": 1.629,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "vela",
+   "distance": 2.3647,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "stranger"
+  },
+  {
+   "profile": "vela",
+   "distance": 3.818,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "stranger"
+  },
+  {
+   "profile": "vela",
+   "distance": 2.5672,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "stranger"
+  },
+  {
+   "profile": "vela",
+   "distance": 3.2691,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "vela",
+   "distance": 7.6781,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "vela",
+   "distance": 2.8964,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "vela",
+   "distance": 1.532,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "vela",
+   "distance": 4.7388,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "vela",
+   "distance": 1.883,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "vela",
+   "distance": 2.3447,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "stranger"
+  },
+  {
+   "profile": "vela",
+   "distance": 7.5748,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "stranger"
+  },
+  {
+   "profile": "vela",
+   "distance": 2.3387,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "stranger"
+  },
+  {
+   "profile": "vela",
+   "distance": 5.2651,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "vela",
+   "distance": 4.9139,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "vela",
+   "distance": 4.4545,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "vela",
+   "distance": 1.8941,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "vela",
+   "distance": 3.7519,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "vela",
+   "distance": 1.753,
+   "threshold": 0.9488,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "onyx",
+   "distance": 3.3881,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "stranger"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.5068,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "stranger"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.9885,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "stranger"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.6393,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.7293,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.7646,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.1719,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "onyx",
+   "distance": 1.69,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.2761,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "onyx",
+   "distance": 3.3035,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "stranger"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.5326,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "stranger"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.8408,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "stranger"
+  },
+  {
+   "profile": "onyx",
+   "distance": 3.2213,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "onyx",
+   "distance": 5.6328,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "onyx",
+   "distance": 3.0769,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "onyx",
+   "distance": 1.9982,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "onyx",
+   "distance": 1.6899,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "onyx",
+   "distance": 4.1678,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "onyx",
+   "distance": 3.1056,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "stranger"
+  },
+  {
+   "profile": "onyx",
+   "distance": 5.4626,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "stranger"
+  },
+  {
+   "profile": "onyx",
+   "distance": 3.0805,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "stranger"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.8845,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.6303,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.78,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "onyx",
+   "distance": 2.1524,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "onyx",
+   "distance": 1.6384,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "onyx",
+   "distance": 3.2196,
+   "threshold": 1.0172,
+   "accepted": false,
+   "true_profile": "kest",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "kest",
+   "distance": 4.6551,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "stranger"
+  },
+  {
+   "profile": "kest",
+   "distance": 2.4151,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "stranger"
+  },
+  {
+   "profile": "kest",
+   "distance": 4.2726,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "stranger"
+  },
+  {
+   "profile": "kest",
+   "distance": 4.0412,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "kest",
+   "distance": 2.6673,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "kest",
+   "distance": 4.0226,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "kest",
+   "distance": 2.5428,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "kest",
+   "distance": 1.864,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "kest",
+   "distance": 2.5649,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "atlas",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "kest",
+   "distance": 4.4591,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "stranger"
+  },
+  {
+   "profile": "kest",
+   "distance": 2.2857,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "stranger"
+  },
+  {
+   "profile": "kest",
+   "distance": 4.0602,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "stranger"
+  },
+  {
+   "profile": "kest",
+   "distance": 4.3769,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "kest",
+   "distance": 5.4526,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "kest",
+   "distance": 4.1163,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "kest",
+   "distance": 2.5722,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "kest",
+   "distance": 2.0377,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "kest",
+   "distance": 4.0528,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "vela",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "kest",
+   "distance": 4.3579,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "stranger"
+  },
+  {
+   "profile": "kest",
+   "distance": 1.8524,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "stranger"
+  },
+  {
+   "profile": "kest",
+   "distance": 4.6976,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "stranger"
+  },
+  {
+   "profile": "kest",
+   "distance": 3.9954,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "kest",
+   "distance": 5.8469,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "kest",
+   "distance": 3.9456,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_timing"
+  },
+  {
+   "profile": "kest",
+   "distance": 2.3946,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "kest",
+   "distance": 1.8607,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_spatial"
+  },
+  {
+   "profile": "kest",
+   "distance": 2.445,
+   "threshold": 0.9973,
+   "accepted": false,
+   "true_profile": "onyx",
+   "condition": "mimic_spatial"
+  }
+ ],
+ "frr_detail": [
+  {
+   "profile": "atlas",
+   "distance": 0.3571,
+   "threshold": 1.1407,
+   "accepted": true,
+   "true_profile": "atlas",
+   "condition": "test"
+  },
+  {
+   "profile": "atlas",
+   "distance": 0.3642,
+   "threshold": 1.1407,
+   "accepted": true,
+   "true_profile": "atlas",
+   "condition": "test"
+  },
+  {
+   "profile": "atlas",
+   "distance": 0.651,
+   "threshold": 1.1407,
+   "accepted": true,
+   "true_profile": "atlas",
+   "condition": "test"
+  },
+  {
+   "profile": "atlas",
+   "distance": 0.4071,
+   "threshold": 1.1407,
+   "accepted": true,
+   "true_profile": "atlas",
+   "condition": "fatigued"
+  },
+  {
+   "profile": "atlas",
+   "distance": 0.3899,
+   "threshold": 1.1407,
+   "accepted": true,
+   "true_profile": "atlas",
+   "condition": "fatigued"
+  },
+  {
+   "profile": "atlas",
+   "distance": 0.9045,
+   "threshold": 1.1407,
+   "accepted": true,
+   "true_profile": "atlas",
+   "condition": "fatigued"
+  },
+  {
+   "profile": "vela",
+   "distance": 0.4833,
+   "threshold": 0.9488,
+   "accepted": true,
+   "true_profile": "vela",
+   "condition": "test"
+  },
+  {
+   "profile": "vela",
+   "distance": 0.4765,
+   "threshold": 0.9488,
+   "accepted": true,
+   "true_profile": "vela",
+   "condition": "test"
+  },
+  {
+   "profile": "vela",
+   "distance": 0.5073,
+   "threshold": 0.9488,
+   "accepted": true,
+   "true_profile": "vela",
+   "condition": "test"
+  },
+  {
+   "profile": "vela",
+   "distance": 0.3858,
+   "threshold": 0.9488,
+   "accepted": true,
+   "true_profile": "vela",
+   "condition": "fatigued"
+  },
+  {
+   "profile": "vela",
+   "distance": 0.5507,
+   "threshold": 0.9488,
+   "accepted": true,
+   "true_profile": "vela",
+   "condition": "fatigued"
+  },
+  {
+   "profile": "vela",
+   "distance": 0.3333,
+   "threshold": 0.9488,
+   "accepted": true,
+   "true_profile": "vela",
+   "condition": "fatigued"
+  },
+  {
+   "profile": "onyx",
+   "distance": 0.3701,
+   "threshold": 1.0172,
+   "accepted": true,
+   "true_profile": "onyx",
+   "condition": "test"
+  },
+  {
+   "profile": "onyx",
+   "distance": 0.4881,
+   "threshold": 1.0172,
+   "accepted": true,
+   "true_profile": "onyx",
+   "condition": "test"
+  },
+  {
+   "profile": "onyx",
+   "distance": 0.2795,
+   "threshold": 1.0172,
+   "accepted": true,
+   "true_profile": "onyx",
+   "condition": "test"
+  },
+  {
+   "profile": "onyx",
+   "distance": 0.3916,
+   "threshold": 1.0172,
+   "accepted": true,
+   "true_profile": "onyx",
+   "condition": "fatigued"
+  },
+  {
+   "profile": "onyx",
+   "distance": 0.4094,
+   "threshold": 1.0172,
+   "accepted": true,
+   "true_profile": "onyx",
+   "condition": "fatigued"
+  },
+  {
+   "profile": "onyx",
+   "distance": 0.2404,
+   "threshold": 1.0172,
+   "accepted": true,
+   "true_profile": "onyx",
+   "condition": "fatigued"
+  },
+  {
+   "profile": "kest",
+   "distance": 0.2441,
+   "threshold": 0.9973,
+   "accepted": true,
+   "true_profile": "kest",
+   "condition": "test"
+  },
+  {
+   "profile": "kest",
+   "distance": 0.5294,
+   "threshold": 0.9973,
+   "accepted": true,
+   "true_profile": "kest",
+   "condition": "test"
+  },
+  {
+   "profile": "kest",
+   "distance": 0.459,
+   "threshold": 0.9973,
+   "accepted": true,
+   "true_profile": "kest",
+   "condition": "test"
+  },
+  {
+   "profile": "kest",
+   "distance": 0.2941,
+   "threshold": 0.9973,
+   "accepted": true,
+   "true_profile": "kest",
+   "condition": "fatigued"
+  },
+  {
+   "profile": "kest",
+   "distance": 0.5185,
+   "threshold": 0.9973,
+   "accepted": true,
+   "true_profile": "kest",
+   "condition": "fatigued"
+  },
+  {
+   "profile": "kest",
+   "distance": 0.9396,
+   "threshold": 0.9973,
+   "accepted": true,
+   "true_profile": "kest",
+   "condition": "fatigued"
+  }
+ ]
+}
